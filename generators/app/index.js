@@ -186,7 +186,7 @@ module.exports = class extends Generator {
       entityRoutesString += 'import {' + entityName + 'Routes} from "./routes/' + entityName + 'Routes";\n';
       entityModelString += 'import {' + entityName + '} from "./entities/' + entityName + '";\n';
       entityRegisterString +=
-        '    ' + entityName + 'Routes.forEach(route => {\n' +
+          '    ' + entityName + 'Routes.forEach(route => {\n' +
           '        (app as any)[route.method](route.route, (req: Request, res: Response, next: Function) => {\n' +
           '            const result = (new (route.controller as any))[route.action](req, res, next);\n' +
           '            if (result instanceof Promise) {\n' +
