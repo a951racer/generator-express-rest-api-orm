@@ -1,4 +1,5 @@
-# generator-express-rest-api-orm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-express-rest-api-orm
+
 > Yeoman generator that creates an Express REST API using an ORM (TypeORM for now)
 
 ## Installation
