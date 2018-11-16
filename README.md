@@ -16,6 +16,10 @@ Then generate your new project:
 yo express-rest-api-orm
 ```
 
+This custom Yeoman generator has been modified to accept a JSON file as input rather than interrogating the user with 1,000 questions.  This makes it much easier to turn-and-burn when tweaking your generator.  It also simplifies the process of creating multiple apps - you can simply copy-paste the configuration file from an existing app and edit the new file for the new app.  Tons easier than typing in redundant data during the typical Yeoman Q&A phase.
+
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
