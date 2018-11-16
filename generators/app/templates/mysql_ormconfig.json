@@ -1,24 +1,18 @@
 {
-   "type": "<%= dbPackage %>",
-   "host": "<%= mysql_host %>",
-   "port": 3306,
-   "username": "<%= mysql_user %>",
-   "password": "<%= mysql_password %>",
-   "database": "<%= mysql_db %>",
-   "synchronize": true,
-   "logging": false,
-   "entities": [
-      "src/entities/**/*.ts"
-   ],
-   "migrations": [
-      "src/migrations/**/*.ts"
-   ],
-   "subscribers": [
-      "src/subscribers/**/*.ts"
-   ],
-   "cli": {
-      "entitiesDir": "src/entities",
-      "migrationsDir": "src/migrations",
-      "subscribersDir": "src/subscribers"
-   }
+  "type": "<%= dbPackage %>",
+  "host": "<%= mysqlHost %>",
+  "port": 3306,
+  "username": "<%= mysqlUser %>",
+  "password": "<%= mysqlPassword %>",
+  "database": "<%= mysqlDb %>",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entities/**/*.ts"],
+  "migrations": ["src/migrations/**/*.ts"],
+  "subscribers": ["src/subscribers/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscribers"
+  }
 }

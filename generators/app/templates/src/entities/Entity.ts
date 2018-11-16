@@ -1,4 +1,5 @@
-import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
+import {Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, ManyToMany, JoinTable, AfterLoad} from "typeorm";
+<%- imports %>
 
 @Entity()
 export class <%= entityName %> {
@@ -6,4 +7,5 @@ export class <%= entityName %> {
     @PrimaryGeneratedColumn()
     id: number;
 
-<%= columns %>}
+<%- columns %>
+<%- relations %>}
