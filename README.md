@@ -19,6 +19,8 @@ yo express-rest-api-orm
 
 This custom Yeoman generator has been modified to accept a JSON file as input rather than interrogating the user with 1,000 questions.  This makes it much easier to turn-and-burn when tweaking your generator.  It also simplifies the process of creating multiple apps - you can simply copy-paste the configuration file from an existing app and edit the new file for the new app.  Tons easier than typing in redundant data during the typical Yeoman Q&A phase.
 
+Also, with additional custom generators, a single input file can be used to generate a backend API as well as one or more client UIs.  This will allow basic, yet fully functional applications to be spun up with very little effort.
+
 ```bash
 yo express-rest-api-orm --config=myconfig.json
 ```
