@@ -1,6 +1,6 @@
 # generator-express-rest-api-orm
 
-> Yeoman generator that creates an Express REST API using an ORM (TypeORM for now)
+> A custom Yeoman (http://yeoman.io/) generator that creates a REST API.  The resulting API is constructed of Node.js, Express, TypeORM and MySQL
 
 ## Installation
 
